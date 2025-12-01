@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: spacedevs
+    database: dbt_demo_catalog  
+    schema: raw  
+    tables:
+      - name: spacedevs_astronauts
+  
